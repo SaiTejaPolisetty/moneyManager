@@ -1,0 +1,44 @@
+.dash-board {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.db-item {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+}
+.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expense {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.db-item-img {
+  height: 100px;
+}
+.db-item-text {
+  flex-grow: 2;
+  margin-left: 13px;
+}
+.db-item-title {
+  color: #475569;
+  font-weight: bold;
+}
+.db-item-amount {
+  color: #7e858e;
+  font-weight: bold;
+  font-size: 20px;
+}
